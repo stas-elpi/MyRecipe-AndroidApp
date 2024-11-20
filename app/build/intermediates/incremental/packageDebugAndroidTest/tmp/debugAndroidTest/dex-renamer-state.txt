@@ -1,0 +1,13 @@
+#Mon Jun 12 23:14:50 EEST 2023
+path.3=9/classes.dex
+path.2=8/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.3=/Users/dimitris/AndroidStudioProjects/TexnlogiaLogismikou/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/9/classes.dex
+base.2=/Users/dimitris/AndroidStudioProjects/TexnlogiaLogismikou/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/8/classes.dex
+base.1=/Users/dimitris/AndroidStudioProjects/TexnlogiaLogismikou/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.0=/Users/dimitris/AndroidStudioProjects/TexnlogiaLogismikou/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

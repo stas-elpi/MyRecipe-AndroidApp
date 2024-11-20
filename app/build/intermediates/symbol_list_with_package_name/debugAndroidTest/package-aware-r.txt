@@ -1,0 +1,3 @@
+com.test.texnlogialogismikou.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

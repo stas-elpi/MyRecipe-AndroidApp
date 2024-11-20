@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround2"
+    tools:context=".MainActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/signin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginBottom="50dp"
+                            android:gravity="center"
+                            android:text="Menu"
+                            android:textColor="@color/black"
+                            android:textSize="35dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/recommended"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginBottom="50dp"
+                            android:gravity="center"
+                            android:text="Recommended Recipes"
+                            android:textColor="@color/purple_500"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/label1"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="50dp"
+                            android:backgroundTint="#B34BC5"
+                            android:foregroundTint="#5A1616"
+                            android:text="-"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/label2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="30dp"
+                            android:text="-"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/label5"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp"
+                            android:layout_marginTop="30dp"
+                            android:text="-"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/label3"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="80dp"
+                            android:text="-"
+                            android:textStyle="bold"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/label4"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="30dp"
+                            android:text="-"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/label6"
+                            android:layout_width="match_parent"
+                            android:layout_height="350dp"
+                            android:layout_marginTop="50dp"
+                            android:text="-"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/search"
+                            android:layout_width="148dp"
+                            android:layout_height="72dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="80dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="#FFFFFF"
+                            android:elevation="2dp"
+                            android:foregroundTint="#432424"
+                            android:rotationX="6"
+                            android:src="@drawable/search_icon" />
+
+                        <ImageView
+                            android:id="@+id/search2"
+                            android:layout_width="148dp"
+                            android:layout_height="72dp"
+                            android:layout_marginStart="240dp"
+                            android:layout_marginTop="-70dp"
+                            android:background="#FFFFFF"
+                            android:elevation="2dp"
+                            android:foregroundTint="#432424"
+                            android:rotationX="6"
+                            android:src="@drawable/search_icon2" />
+                </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+        android:id="@+id/socialicons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+
+
+</RelativeLayout>
